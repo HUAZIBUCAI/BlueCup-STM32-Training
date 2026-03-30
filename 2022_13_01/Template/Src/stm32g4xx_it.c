@@ -21,6 +21,7 @@
 #include "main.h"
 #include "stm32g4xx_it.h"
 #include "uart\bsp_uart.h"
+#include "tim\bsp_tim.h"
 
 
 

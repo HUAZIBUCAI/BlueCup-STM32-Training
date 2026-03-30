@@ -1,10 +1,9 @@
 #include "tim\bsp_tim.h"
 
-
 TIM_HandleTypeDef htim2;
 
 /* TIM2 init function */
-void MX_TIM2_Init(void)
+void PA1_TIM2_Init(void)
 {
 
   /* USER CODE BEGIN TIM2_Init 0 */

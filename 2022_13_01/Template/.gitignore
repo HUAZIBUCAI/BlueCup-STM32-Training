@@ -1,0 +1,25 @@
+# Keil/EIDE 编译产生的垃圾文件和临时文件
+*.o
+*.d
+*.crf
+*.dep
+*.map
+*.lst
+*.htm
+*.lnp
+*.axf
+*.build_log.htm
+
+# Keil 个人用户配置文件（换台电脑打不开，不需要传）
+*.uvoptx
+*.uvguix.*
+*.scvd
+
+# EIDE 和 Keil 的臃肿缓存文件夹
+build/
+Objects/
+Listings/
+DebugConfig/
+.pack/
+.cmsis/
+.eide/
