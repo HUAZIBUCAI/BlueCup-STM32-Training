@@ -1,6 +1,0 @@
---c99 -c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ..\Inc\bsp
--I.\RTE\_source
--I"E:\App library\Keil5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include"
--I"E:\App library\Keil5\ARM\PACK\Keil\STM32G4xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include"
--D__UVISION_VERSION="524" -D_RTE_ -DSTM32G431xx -DUSE_HAL_DRIVER -DSTM32G431xx
--o source\bsp_uart.o --omf_browse source\bsp_uart.crf --depend source\bsp_uart.d "..\Src\bsp\uart\bsp_uart.c"

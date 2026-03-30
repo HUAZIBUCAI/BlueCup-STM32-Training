@@ -28,8 +28,14 @@ source\main.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ex.h
 source\main.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h
 source\main.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h
 source\main.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h
+source\main.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h
+source\main.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h
+source\main.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h
+source\main.o: ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h
 source\main.o: ..\Inc\bsp\rcc\bsp_rcc.h
 source\main.o: ..\Inc\bsp\led_key\bsp_led_key.h
 source\main.o: ..\Inc\bsp\lcd\bsp_lcd.h
 source\main.o: E:\App library\Keil5\ARM\ARMCC\Bin\..\include\stdio.h
 source\main.o: E:\App library\Keil5\ARM\ARMCC\Bin\..\include\string.h
+source\main.o: ..\Inc\bsp\tim\bsp_tim.h
+source\main.o: ..\Inc\bsp\uart\bsp_uart.h
