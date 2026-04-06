@@ -1,0 +1,126 @@
+{
+    "name": "source",
+    "target": "source",
+    "toolchain": "AC5",
+    "toolchainLocation": "E:\\App library\\Keil5\\ARM\\ARMCC",
+    "toolchainCfgFile": "c:\\Users\\DUDUNIAO\\.vscode\\extensions\\cl.eide-3.26.6\\res\\data\\models/arm.v5.model.json",
+    "buildMode": "fast|multhread",
+    "showRepathOnLog": true,
+    "threadNum": 16,
+    "rootDir": "f:\\Blue Cup\\Provincial_Competition_Training\\2022_13_02\\Template\\MDK-ARM",
+    "dumpPath": "build\\source",
+    "outDir": "build\\source",
+    "ram": 32768,
+    "rom": 131072,
+    "incDirs": [
+        "../Inc",
+        "../Drivers/STM32G4xx_HAL_Driver/Inc",
+        "../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy",
+        "../Drivers/CMSIS/Device/ST/STM32G4xx/Include",
+        "../Drivers/CMSIS/Include",
+        "../Inc/bsp",
+        ".cmsis/include",
+        "RTE/_source"
+    ],
+    "libDirs": [],
+    "defines": [
+        "USE_HAL_DRIVER",
+        "STM32G431xx"
+    ],
+    "sourceList": [
+        "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c",
+        "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c",
+        "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c",
+        "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c",
+        "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c",
+        "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c",
+        "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c",
+        "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c",
+        "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c",
+        "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c",
+        "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c",
+        "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c",
+        "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c",
+        "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c",
+        "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c",
+        "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c",
+        "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c",
+        "../Src/bsp/iic/bsp_iic.c",
+        "../Src/bsp/lcd/bsp_lcd.c",
+        "../Src/bsp/led_key/bsp_led_key.c",
+        "../Src/bsp/rcc/bsp_rcc.c",
+        "../Src/bsp/tim/bsp_tim.c",
+        "../Src/bsp/uart/bsp_uart.c",
+        "../Src/main.c",
+        "../Src/stm32g4xx_hal_msp.c",
+        "../Src/stm32g4xx_it.c",
+        "../Src/system_stm32g4xx.c",
+        "startup_stm32g431xx.s"
+    ],
+    "alwaysInBuildSources": [],
+    "sourceParams": {},
+    "options": {
+        "version": 4,
+        "afterBuildTasks": [],
+        "asm-compiler": {
+            "defines": []
+        },
+        "beforeBuildTasks": [],
+        "c/cpp-compiler": {
+            "CXX_FLAGS": "--diag_suppress=1 --diag_suppress=1295",
+            "C_FLAGS": "--diag_suppress=1 --diag_suppress=1295",
+            "c99-mode": true,
+            "one-elf-section-per-function": true,
+            "optimization": "level-3",
+            "warnings": "all-warnings"
+        },
+        "global": {
+            "output-debug-info": "enable",
+            "use-microLIB": false,
+            "microcontroller-cpu": "cortex-m4-sp",
+            "microcontroller-fpu": "cortex-m4-sp",
+            "microcontroller-float": "cortex-m4-sp",
+            "$arch-extensions": "",
+            "$clang-arch-extensions": "",
+            "$armlink-arch-extensions": ""
+        },
+        "linker": {
+            "$outputTaskExcludes": [
+                ".bin"
+            ],
+            "output-format": "elf",
+            "ro-base": "0x08000000",
+            "rw-base": "0x20000000",
+            "xo-base": "",
+            "link-scatter": [
+                "\"f:/Blue Cup/Provincial_Competition_Training/2022_13_02/Template/MDK-ARM/build/source/source.sct\""
+            ]
+        }
+    },
+    "env": {
+        "KEIL_OUTPUT_DIR": "source",
+        "workspaceFolder": "f:\\Blue Cup\\Provincial_Competition_Training\\2022_13_02\\Template\\MDK-ARM",
+        "workspaceFolderBasename": "MDK-ARM",
+        "OutDir": "f:\\Blue Cup\\Provincial_Competition_Training\\2022_13_02\\Template\\MDK-ARM\\build\\source",
+        "OutDirRoot": "build",
+        "OutDirBase": "build\\source",
+        "ProjectName": "source",
+        "ConfigName": "source",
+        "ProjectRoot": "f:\\Blue Cup\\Provincial_Competition_Training\\2022_13_02\\Template\\MDK-ARM",
+        "ExecutableName": "f:\\Blue Cup\\Provincial_Competition_Training\\2022_13_02\\Template\\MDK-ARM\\build\\source\\source",
+        "ChipPackDir": "",
+        "ChipName": "",
+        "SYS_Platform": "win32",
+        "SYS_DirSep": "\\",
+        "SYS_DirSeparator": "\\",
+        "SYS_PathSep": ";",
+        "SYS_PathSeparator": ";",
+        "SYS_EOL": "\r\n",
+        "EIDE_BUILDER_DIR": "c:\\Users\\DUDUNIAO\\.vscode\\extensions\\cl.eide-3.26.6\\res\\tools\\win32\\unify_builder",
+        "EIDE_BINARIES_VER": "12.1.1",
+        "EIDE_MSYS": "C:\\Users\\DUDUNIAO\\.eide\\bin\\builder\\msys\\bin",
+        "EIDE_PY3_CMD": "C:\\Users\\DUDUNIAO\\.eide\\bin\\python36\\python3.exe",
+        "ToolchainRoot": "E:\\App library\\Keil5\\ARM\\ARMCC"
+    },
+    "sysPaths": []
+}
